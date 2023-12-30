@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagec{
+    width: 784px;
+    height: 400px;
+}
+.imagec img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    color: cyan;
+}
+input{
+    position: absolute;
+    bottom: 150px;
+    right: 50%;
+    translate: 50%;
+} 

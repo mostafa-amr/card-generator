@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 181, 152);
+}
+h2{
+    text-align: center;
+}
+
+#cont{
+    text-align: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 630px;
+    top: 50px;
+left: 400px;
+  
+}
+
+.card{
+    width: 150px;
+}
+
+.inputbut{
+    display: block;
+    margin: 5px auto 15px auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    object-fit: cover;
+}
+#message{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+#message p{
+font-size: 34px;
+color: green;
+margin-bottom: 0;
+}
+#message textarea{
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
